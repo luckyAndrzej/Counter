@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+    border-box: box-sizing;
+    background-image: url(photo/back.jpg);
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.counter {
+    display: inline-flex;
+    align-items: center;
+    user-select: none;
+}
+.counter__button {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: green;
+    margin: 4px;
+}
+input {
+    border: none;
+    width-max: 100%;
+    text-align: center;
+}
